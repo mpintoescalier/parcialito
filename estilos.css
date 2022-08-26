@@ -1,0 +1,53 @@
+.Sep {
+    display: flex;
+    background-color: rgba(162, 113, 207, 0.691);
+    padding: 18px;
+    height: 600px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.item.f{
+    order: 1;
+}
+
+.g {
+    order: 2;
+    align-self: flex-end;
+}
+
+.b{
+    order: 3;
+    align-self: center;
+}
+
+.p{
+    order: 4;
+    align-self: flex-start;
+}
+
+.s{
+    order: 5;
+    align-self: flex-end;
+}
+
+.item{
+    display: flex;
+    display: block;
+    background-color: rgba(122, 230, 194, 0.787);
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+.shrek {
+    height: 115px;
+}
+
+*{
+    box-sizing: border-box;
+}
